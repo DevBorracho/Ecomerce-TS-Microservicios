@@ -1,0 +1,21 @@
+{
+  "name": "products",
+  "module": "index.ts",
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/bun": "latest",
+    "eslint": "^9.36.0",
+    "globals": "^16.4.0"
+  },
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "express": "5.1.0",
+    "pg": "8.16.3"
+  },
+  "scripts": {
+    "start": "bun run index.js",
+    "lint": "eslint . --ext .js,.ts",
+    "dev":"node --watch index.js"
+  }
+}

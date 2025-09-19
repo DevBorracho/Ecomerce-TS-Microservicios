@@ -1,5 +1,5 @@
 En un sistema de inventario típico con microservicios, el orden recomendado sería:
-
+Cambiar mongo por sql ya que haremos todo en una sola bd de postgresql
 Auth ✅ (lo tienes hecho)
 
 Gateway ✅ (lo tienes hecho)
