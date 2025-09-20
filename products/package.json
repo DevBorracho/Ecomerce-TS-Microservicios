@@ -10,12 +10,13 @@
   "private": true,
   "type": "module",
   "dependencies": {
+    "dotenv": "^17.2.2",
     "express": "5.1.0",
     "pg": "8.16.3"
   },
   "scripts": {
-    "start": "bun run index.js",
+    "start": "bun run src/index.js",
     "lint": "eslint . --ext .js,.ts",
-    "dev":"node --watch index.js"
+    "dev": "node --watch src/index.js"
   }
 }

@@ -4,7 +4,7 @@ Auth ✅ (lo tienes hecho)
 
 Gateway ✅ (lo tienes hecho)
 
-Products 📦 → Gestión de productos: nombre, descripción, precio, stock, categoría…
+Products 📦 ✅ → Gestión de productos: nombre, descripción, precio, stock, categoría…
 
 Categories hay varias asi que hay que hacer un enum
 
