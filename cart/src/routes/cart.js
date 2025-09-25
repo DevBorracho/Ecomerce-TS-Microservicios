@@ -142,3 +142,5 @@ router.delete("/:id", async (req, res) => {
       .json({ msg: "Error al eliminar producto del carrito" });
   }
 });
+
+export default router;
